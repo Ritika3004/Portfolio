@@ -5,8 +5,14 @@
     border: border-box;
 }
 
+body{
+    min-height: 100vh;
+    background-image: url(images.jpeg);
+    background-size: cover;
+    background-position: center;
+}
 /*header navbar*/
-
+/*
 .navbar{
     height: 60px;
     width: 100%;
@@ -29,3 +35,4 @@
 .nav-ops p a{
     text-decoration: none;
 }
+*/
