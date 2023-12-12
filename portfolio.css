@@ -8,24 +8,64 @@
 /*header navbar*/
 
 .navbar{
-    height: 60px;
+    height: 150px;
     width: 100%;
     background-color: #fff;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid rgba(34,36,38,.15);
-    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
-    border-radius: 0.28571429rem;
 }
 .nav-ops{
     display: flex;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 1.3rem;
+    margin-left: 100px;
 }
 .nav-ops p{
     margin-left: 50px;
 }
 .nav-ops p a{
     text-decoration: none;
+}
+.GFG-logo{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: -100px;
+}
+
+
+/* Home */
+
+.Home {
+    height: 100vh;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: -300px;
+    display: flex;
+}
+  
+.typing-demo {
+    width: 20ch;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 5em;
+}
+  
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+.obj a{
+    margin-left: 25px;
 }
