@@ -3,14 +3,79 @@
     padding: 0;
     font-family: arial;
     border: border-box;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(252, 135, 150), #f0d0d3);
+
+}
+nav{
+    width: 100%;/*248,139,150
+    height: 150px;
+    /*#ec5766*/
+
+}
+label.logo{
+    margin-left: 100px;
 }
 
-/*header navbar*/
+nav ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
 
+nav ul li{
+    display: inline-block;
+    line-height: 45px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    background-color: #eb98a0;
+}
+nav ul li a:hover{
+    color:#fd4f60;
+}
+#checkbtn{
+    float: right;
+    line-height: 135px;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-size: 30px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ ul{
+    display: inline-block;
+}
+@media(max-width: 950px){
+    #checkbtn{
+        display: block;
+    }
+    nav ul{
+        display: none;   
+    }
+    
+
+}
+
+
+/*header navbar*/
+/*
 .navbar{
     height: 150px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ac4343;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -31,7 +96,9 @@
     margin-top: 100px;
     margin-bottom: 40px;
     margin-left: -100px;
-}
+}*/
+
+
 
 
 /* Home */
@@ -42,10 +109,20 @@
     margin-left: 100px;
     margin-bottom: -300px;
     display: flex;
+
 }
   
-.typing-demo {
-    width: 20ch;
+.hello{
+    /*width: 8ch;
+    animation: typing 3s steps(8), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;*/
+    font-family: monospace;
+    font-size: 5em;
+}
+.typing-demo{
+    width: 12ch;
     animation: typing 3s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -68,4 +145,19 @@
 
 .obj a{
     margin-left: 25px;
+}
+.obj p{
+    width: 800px;
+} 
+@media(max-width: 950px){
+    .obj{
+        display: block;
+    }
+     
+    .obj p{
+        width: 350px;
+    }
+}
+.About{
+    margin-top: 80px;
 }
