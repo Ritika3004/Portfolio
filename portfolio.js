@@ -35,21 +35,21 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Front end developer","Fresher","Technician", "Blogger", "Designer", "Freelancer","Manager"],
-        typeSpeed: 100,
+        strings: ["Front end developer", "Data Science Enthusiast","Fresher", "Blogger", "Designer"],
+        typeSpeed: 80,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-3", {
         strings: ["Connect with me on :)"],
-        typeSpeed: 100,
+        typeSpeed: 80,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Front end developer","Fresher" ,"Technician", "Blogger", "Designer", "Freelancer","Manager"],
-        typeSpeed: 100,
+        strings:  ["Front end developer", "Data Science Enthusiast","Fresher", "Blogger", "Designer"],
+        typeSpeed: 80,
         backSpeed: 60,
         loop: true
     });
